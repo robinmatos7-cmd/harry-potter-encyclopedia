@@ -4,7 +4,7 @@
 Wizarding World Character Encyclopedia is a responsive front-end web application that allows users to search for Harry Potter characters using the PotterDB API. Users can browse featured characters, search the Wizarding World by name, and view information such as house, species, nationality, brith date, and links to additional information.
 
 ## Screenshot
-![Wizarding World Character Encyclopedia](assets\04-screenshots\homepage.png)
+![Wizarding World Character Encyclopedia](assets/04-screenshots/homepage.png)
 
 ## Features
 - Search Wizarding World characters by name
@@ -24,3 +24,5 @@ Wizarding World Character Encyclopedia is a responsive front-end web application
 - Git
 - GitHub
 - GitHub Pages
+## Website link 
+(https://robinmatos7-cmd.github.io/harry-potter-encyclopedia/)
