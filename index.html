@@ -1,0 +1,77 @@
+
+<head>
+    <link rel="stylesheet" href="assets\01 css\style.css">
+    <title>Wizarding World Character Enclyclopedia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header> <!--Hero Section-->
+        <section id="hero-title-sub">
+            <h1>Wizarding World Character Encyclopedia</h1>
+        </section>
+        <section id="hero-videos">
+            <video autoplay loop muted playsinline>
+                <source src="assets\03 images\inside castle 2.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+            <video autoplay loop muted playsinline>
+                <source src="assets\03 images\castle.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+            <video autoplay loop muted playsinline>
+                <source src="assets\03 images\gryffindor.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </section>
+        <p>All you ever wanted to know about your favorite Harry Potter characters.</p>
+    </header>
+    <section id="search-section"> <!--search section-->
+        <div id="search-bar">
+            <input id="search-input" placeholder="Search Character" type="search">
+            <button id="search-button" type="button">Search</button>
+            <button id="clear-button" type="button">Clear</button>
+        </div>
+    </section>
+    <section id="featured-characters-section"><!--featured characters-->
+        <h2>Featured Characters</h2>
+        <div id="card-container">
+            <div class="card"><!--Dumbledore card-->
+                <img src="assets\03 images\Dumbledore.webp" alt="Avatar" style="width:100%">
+                <div class="card-content">
+                    <h4><b>Albus Dumbledore</b></h4>
+                    <p>Gryffindor</p>
+                </div>
+            </div>
+            <div class="card"><!--Snape card-->
+                <img src="assets\03 images\Snape.webp" alt="Avatar" style="width:100%">
+                <div class="card-content">
+                    <h4><b>Severus Snape</b></h4>
+                    <p>Slytherin</p>
+                </div>
+            </div>
+            <div class="card"><!--Ginny card-->
+                <img src="assets\03 images\Ginny.webp" alt="Avatar" style="width:100%">
+                <div class="card-content">
+                    <h4><b>Ginny Weasley</b></h4>
+                    <p>Gryffindor</p>
+                </div>
+            </div>
+            <div class="card"><!--Neville card-->
+                <img src="assets\03 images\Neville.webp" alt="Avatar" style="width:100%">
+                <div class="card-content">
+                    <h4><b>Neville Longbottom</b></h4>
+                    <p>Gryffindor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="search-results"><!--search results-->
+        <h2 id="search-results-title"></h2>
+        <div id="search-results-container"></div>
+    </section>
+    <footer id="landing-page-footer"><!--footer-->
+        This website was created as a student project for educational purposes. Harry Potter, Wizarding World, and
+        related images are the property of their respective copyright holders. No commercial use is intended.
+    </footer>
+    <script src="assets\02 js\script.js"></script>
+</body>
